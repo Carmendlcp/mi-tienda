@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.categorias{
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+}
+
+.promociones{
+    color: red;
+}
+
+.nav > li {
+    position: relative;
+}
+
+.nav > li > ul {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    
+}
+
+.nav >li:hover > ul {
+    display: block;
+    margin-top: 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    margin-left: 250px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+}
+
+.lupa{
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.buscador_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil{
+   margin-left: 5px;
+}
+
+.perfil img{
+    width: 25px;
+}
+
+
+.cesta img{
+    width: 25px;
+}
+
+.imagenes{
+    width: 100%;
+}
+
+.img_lista img{
+    width: 400px;
+    margin-bottom: 30px;
+} 
+
+.img_lista li {
+    width: calc(25% - 10px);
+}
+
+.img_lista{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.img_container{
+    text-align: center;
+   
+}  
+
+.img_container p{
+    font-size: 12px;
+} 
+
+.negrita{
+    font-weight: bolder;
+}
