@@ -117,3 +117,60 @@ header {
 .negrita{
     font-weight: bolder;
 }
+
+.footer1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 3px solid rgb(177, 176, 176) ;
+}
+
+.footer1 p{
+    border-top: 3px solid rgb(177, 176, 176) ; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-bottom: 30px;
+}
+
+.footer h2{
+    margin-bottom: 50px;
+}
+
+.news{
+    border: none;
+    border-bottom: 1px solid rgb(177, 176, 176) ; 
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer2{
+    text-align: center;
+    border-bottom: 3px solid rgb(177, 176, 176) ; 
+}
+
+.footer2 p{
+    padding: 5px;
+}
+
+.footer3{
+    display: flex;
+    text-align: center;
+    border-bottom: 3px solid rgb(177, 176, 176) ; 
+}
+
+.guia li{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.guia{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.li_1{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
